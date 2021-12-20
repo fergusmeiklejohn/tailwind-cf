@@ -10,3 +10,5 @@ package-lock.json
 .idea/tailwind-cf.iml
 
 .idea/vcs.xml
+
+.idea/
