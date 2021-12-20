@@ -4,7 +4,7 @@
   "description": "",
   "license": "",
   "scripts": {
-    "build": "cross-env NODE_ENV=production npm run build:css && remix build",
+    "build": "cross-env NODE_ENV=production npm run build:css -- --minify && remix build",
     "build:css": "tailwindcss -i ./styles/tailwind.css -o ./app/styles/tailwind.css",
     "dev": "cross-env NODE_ENV=development run-p dev:*",
     "postinstall": "remix setup cloudflare-pages",
