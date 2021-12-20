@@ -5,3 +5,8 @@ node_modules
 /public/build
 
 app/styles/tailwind.css
+package-lock.json
+
+.idea/tailwind-cf.iml
+
+.idea/vcs.xml
