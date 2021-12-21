@@ -1,21 +1,14 @@
-import { RoomIcon } from "@fluentui/react-icons-mdl2";
 
 export default function Login() {
   return (
 
       <div className="min-h-full flex flex-col justify-center py-12 sm:px-6 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-md">
-          <div className="flex items-center justify-center h-12 w-12 mx-auto rounded-full bg-gradient-to-r from-gray-100 to-gray-200">
-            <RoomIcon
-              className="h-6 w-6 text-indigo-600"
-              aria-hidden="true"
-            />
-          </div>
-          {/*<img*/}
-          {/*  className="mx-auto h-12 w-auto"*/}
-          {/*  src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"*/}
-          {/*  alt="Workflow"*/}
-          {/*/>*/}
+          <img
+          className="mx-auto h-12 w-auto"
+           src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+           alt="Workflow"
+          />
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Sign in to your account</h2>
           <p className="mt-2 text-center text-sm text-gray-600">
             Or{' '}
